@@ -1,0 +1,3 @@
+C:/Users/PC/CLionProjects/2sem_siaod/task2_1/cmake-build-debug/CMakeFiles/task2_1.dir
+C:/Users/PC/CLionProjects/2sem_siaod/task2_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/CLionProjects/2sem_siaod/task2_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

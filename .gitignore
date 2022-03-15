@@ -1,0 +1,9 @@
+'#' Lines starting with '#' are considered comments.
+
+CMakeLists.txt
+
+'#' Ignore objects and archives.
+
+.idea/
+
+cmake-build-debug/

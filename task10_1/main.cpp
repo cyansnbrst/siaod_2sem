@@ -51,8 +51,10 @@ int main() {
                     Another term used in America for parakeets is conure";
 
     vector<string> uniqueWords = {"parrot", "is", "tail", "claws"};
+
     for (const auto &elem: uniqueWords) {
         cout << elem << ": " << rabinKarpSearch(elem, text) << endl;
     }
+
     return 0;
 }

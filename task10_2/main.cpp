@@ -21,11 +21,13 @@ int main() {
     string text = "БМВ Х3 B123AY777 B123AY77 черн.Е83 2.0d";
     smatch m;
     regex word("[A-Z][0-9]{3}[A-Z]{2}[0-9]{2}[0-9]?");
+
     while (regex_search(text, m, word)) {
         for(auto elem: m)
             cout << elem << ' ';
         cout << endl;
         text = m.suffix().str();
     }
+
     return 0;
 }
